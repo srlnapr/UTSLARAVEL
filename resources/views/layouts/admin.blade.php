@@ -573,6 +573,9 @@
                 </div>
                 <!-- /.container-fluid -->
 
+                @yield('content')
+                @yield('tabel')
+
             </div>
             <!-- End of Main Content -->
 
