@@ -1,3 +1,7 @@
+@extends('layouts.admin')
+@section('judul', 'Dashboard')
+@section('content')
+
 <div class="container-fluid">
 
     <!-- Page Heading -->
@@ -326,13 +330,4 @@
     </div>
 
 </div>
-<!-- /.container-fluid -->
-
-</div>
-<!-- End of Main Content -->
-
-<!-- Footer -->
-@include('includes.footer')
-<!-- End of Footer -->
-
-</div>
+@endsection
