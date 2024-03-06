@@ -242,6 +242,7 @@
                 <!-- End of Topbar -->
 
                 <!-- Begin Page Content -->
+                @yield('content')
                 <div class="container-fluid">
 
                     <!-- Page Heading -->
