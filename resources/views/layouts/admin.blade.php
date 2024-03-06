@@ -363,6 +363,7 @@
                 <!-- End of Topbar -->
 
                 <!-- Begin Page Content -->
+                @yield('content')
                 <div class="container-fluid">
 
                     <!-- Page Heading -->
@@ -697,6 +698,7 @@
             <!-- End of Main Content -->
 
             <!-- Footer -->
+            @include('includes.footer')
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
