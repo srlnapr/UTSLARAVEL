@@ -8,6 +8,6 @@ class PelangganController extends Controller
 {
     public function index()
     {
-        return view('pages.pelanggan');
+        return view('pelanggan.indexpelanggan');
     }
 }
