@@ -20,3 +20,9 @@ Route::get('/', function () {
 });
 Route::get('/dashboard', [DashboardController::class, 'index']);
 Route::get('/pelanggan', [PelangganController::class, 'index']);
+
+
+//routes pelanggan
+Route::get('/pelanggan', [PelangganController::class, 'index']);
+Route::get('/tambahpelanggan', [PelangganController::class, 'tambahpelanggan']);
+Route::get('/pelanggan', [PelangganController::class, 'pelanggan']);
