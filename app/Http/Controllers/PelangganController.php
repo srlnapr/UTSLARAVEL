@@ -27,7 +27,7 @@ class PelangganController extends Controller
         return view('pelanggan.tambahpelanggan');
     }
 
-    public function store(Request $request) // Mengubah nama method menjadi store sesuai dengan konvensi Laravel
+    public function pelanggan(Request $request) // Mengubah nama method menjadi store sesuai dengan konvensi Laravel
     {
         $request->validate([
             'nama' => 'required',
