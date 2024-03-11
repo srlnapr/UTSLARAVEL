@@ -23,5 +23,8 @@ Route::get('/dashboard', [DashboardController::class, 'index']);
 // Rute untuk pelanggan
 Route::get('/pelanggan', [PelangganController::class, 'index']);
 Route::get('/tambahpelanggan', [PelangganController::class, 'tambahpelanggan']);
-Route::post('/pelanggan', [PelangganController::class, 'store']); // Mengubah menjadi POST request untuk menambahkan data pelanggan
+Route::post('/pelanggan', [PelangganController::class, 'pelanggan']); // Mengubah menjadi POST request untuk menambahkan data pelanggan
 Route::get('/pelanggan/{pelanggan_id}', [PelangganController::class, 'show']);
+Route::get('/pelanggan/{pelanggan_id}/edit', [PelangganController::class, 'edit']);
+Route::get('/pelanggan/{pelanggan_id}', [PelangganController::class, 'update']);
+Route::delete('/pelanggan/{pelanggan_id}', [PelangganController::class, 'destroy']); // untuk mengupdate data berdasarkan id tertentu
