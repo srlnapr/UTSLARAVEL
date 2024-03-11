@@ -26,3 +26,4 @@ Route::get('/pelanggan', [PelangganController::class, 'index']);
 Route::get('/pelanggan', [PelangganController::class, 'index']);
 Route::get('/tambahpelanggan', [PelangganController::class, 'tambahpelanggan']);
 Route::get('/pelanggan', [PelangganController::class, 'pelanggan']);
+Route::get('/pelanggan/{pelanggan_id}',[PelangganController::class, 'show']);
