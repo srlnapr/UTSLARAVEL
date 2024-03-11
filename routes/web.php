@@ -19,11 +19,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/dashboard', [DashboardController::class, 'index']);
-Route::get('/pelanggan', [PelangganController::class, 'index']);
 
-
-//routes pelanggan
+// Rute untuk pelanggan
 Route::get('/pelanggan', [PelangganController::class, 'index']);
 Route::get('/tambahpelanggan', [PelangganController::class, 'tambahpelanggan']);
-Route::get('/pelanggan', [PelangganController::class, 'pelanggan']);
-Route::get('/pelanggan/{pelanggan_id}',[PelangganController::class, 'show']);
+Route::post('/pelanggan', [PelangganController::class, 'store']); // Mengubah menjadi POST request untuk menambahkan data pelanggan
+Route::get('/pelanggan/{pelanggan_id}', [PelangganController::class, 'show']);

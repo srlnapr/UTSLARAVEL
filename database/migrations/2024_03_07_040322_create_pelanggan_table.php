@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('pelanggan', function (Blueprint $table) {
             $table->id();
             $table->string('nama');
-            $table->foreignId('profil_id')->references('id')->on('profil')->onDelete('cascade')->onUpdate('cascade');
+            $table->foreignId('profile_id')->references('id')->on('profile')->onDelete('cascade')->onUpdate('cascade');
             $table->timestamps();
         });
     }
