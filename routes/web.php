@@ -27,5 +27,8 @@ Route::post('/pelanggan', [PelangganController::class, 'pelanggan']); // Menguba
 Route::get('/pelanggan/{pelanggan_id}', [PelangganController::class, 'show']);
 Route::get('/pelanggan/{pelanggan_id}/edit', [PelangganController::class, 'edit']);
 Route::put('/pelanggan/{pelanggan_id}', [PelangganController::class, 'update']);
+<<<<<<< HEAD
 
+=======
+>>>>>>> e72d7d3dd7b504a526e0818a3bd8d80d8f7b5375
 Route::delete('/pelanggan/{pelanggan_id}', [PelangganController::class, 'destroy']); // untuk mengupdate data berdasarkan id tertentu
