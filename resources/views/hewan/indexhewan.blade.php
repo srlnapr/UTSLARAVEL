@@ -12,11 +12,11 @@ Data Hewan
         <thead>
             <tr>
                 <th scope="col">No</th>
-                <th scope="col">Nama Hewan</th>
-                <th scope="col">Jenis Hewan</th>
-                <th scope="col">Usia Hewan</th>
-                <th scope="col">Harga Hewan</th>
-                <th scope="col">Deskripsi Hewan</th>
+                <th scope="col">Nama </th>
+                <th scope="col">Jenis </th>
+                <th scope="col">Usia </th>
+                <th scope="col">Harga </th>
+                <th scope="col">Deskripsi </th>
                 <th scope="col">Stok</th>
                 <th scope="col">Aksi</th>
             </tr>
@@ -33,7 +33,7 @@ Data Hewan
                 <td>{{ $item->Stok }}</td>
                 <td class="mr-3">
                     <a href="/hewan/{{ $item->ID_hewan }}" class="btn btn-info">Show</a>
-                    <a href="/hewan/{{ $item->ID_hewan }}/edit" class="btn btn-primary">Edit</a>
+                    <a href="/hewan/{{ $item->ID_hewan }}/edit" class="btn btn-primary mr-1">Edit</a>
                     <form action="/hewan/{{ $item->ID_hewan }}" method="POST" style="display: inline;">
                         @csrf
                         @method('DELETE')
