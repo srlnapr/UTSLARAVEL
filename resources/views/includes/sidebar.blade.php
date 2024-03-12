@@ -31,9 +31,9 @@
 
     <!-- Nav Item - Dashboard -->
     <li class="nav-item active">
-        <a class="nav-link" href="/barang">
+        <a class="nav-link" href="/hewan">
         <i class="fas fa-fw fa-gift"></i>
-        <span>Barang</span></a>
+        <span>Hewan</span></a>
     </li>
     <!-- Divider -->
 

@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\HewanController;
 use App\Http\Controllers\PelangganController;
 use Illuminate\Support\Facades\Route;
 
@@ -16,8 +17,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('pages.dashboard');
 });
+
 Route::get('/dashboard', [DashboardController::class, 'index']);
 
 // Rute untuk pelanggan
@@ -27,8 +29,13 @@ Route::post('/pelanggan', [PelangganController::class, 'pelanggan']); // Menguba
 Route::get('/pelanggan/{pelanggan_id}', [PelangganController::class, 'show']);
 Route::get('/pelanggan/{pelanggan_id}/edit', [PelangganController::class, 'edit']);
 Route::put('/pelanggan/{pelanggan_id}', [PelangganController::class, 'update']);
-<<<<<<< HEAD
-
-=======
->>>>>>> e72d7d3dd7b504a526e0818a3bd8d80d8f7b5375
 Route::delete('/pelanggan/{pelanggan_id}', [PelangganController::class, 'destroy']); // untuk mengupdate data berdasarkan id tertentu
+
+//rute hewan
+Route::get('/hewan', [HewanController::class, 'index']);
+Route::get('/tambahhewan', [HewanController::class, 'tambahHewan']);
+Route::post('/hewan', [HewanController::class, 'simpanHewan']);
+Route::get('/hewan/{hewan_id}', [HewanController::class, 'show']);
+Route::get('/hewan/{hewan_id}/edit', [HewanController::class, 'edit']);
+Route::put('/hewan/{hewan_id}', [HewanController::class, 'update']);
+Route::delete('/hewan/{hewan_id}', [HewanController::class, 'destroy']);
