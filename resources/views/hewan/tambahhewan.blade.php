@@ -22,7 +22,7 @@
   </div>
   
   <div class="form-group p-3">
-      <label>Usia Hewan</label>
+      <label>Usia Hewan (tahun)</label>
       <input type="number" name='usia' class="form-control" placeholder="Masukkan Usia Hewan">
       @error('usia')
       <div class="alert alert-danger">{{ $message }}</div>
