@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('pages.dashboard');
+    return view('pages.Landingpage');
 });
 
 Route::get('/dashboard', [DashboardController::class, 'index']);
@@ -39,3 +39,7 @@ Route::get('/hewan/{hewan_id}', [HewanController::class, 'show']);
 Route::get('/hewan/{hewan_id}/edit', [HewanController::class, 'edit']);
 Route::put('/hewan/{hewan_id}', [HewanController::class, 'update']);
 Route::delete('/hewan/{hewan_id}', [HewanController::class, 'destroy']);
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
