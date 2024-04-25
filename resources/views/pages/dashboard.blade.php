@@ -24,7 +24,7 @@
                 <div class="col mr-2">
                     <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
                         Total Stok Hewan</div>
-                    <div class="h5 mb-0 font-weight-bold text-gray-800">{{ $totalStokHewan }}</div>
+                    <div class="h5 mb-0 font-weight-bold text-gray-800"></div>
                 </div>
                 <div class="col-auto">
                     <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
@@ -44,7 +44,7 @@
                             <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
                                 Total Pelanggan
                             </div>
-                            <div class="h5 mb-0 font-weight-bold text-gray-800">{{ $totalPelanggan }}</div> <!-- Correct variable name -->
+                            <div class="h5 mb-0 font-weight-bold text-gray-800"></div> <!-- Correct variable name -->
                         </div>
                         
                         <div class="col-auto">
