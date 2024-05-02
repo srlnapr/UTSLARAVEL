@@ -1,9 +1,12 @@
 <?php
 
-use App\Http\Controllers\DashboardController;
-use App\Http\Controllers\HewanController;
-use App\Http\Controllers\PelangganController;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\HewanController;
+use App\Http\Controllers\KategoriController;
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\PelangganController;
 
 /*
 |--------------------------------------------------------------------------
@@ -43,3 +46,6 @@ Route::delete('/hewan/{hewan_id}', [HewanController::class, 'destroy']);
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+//route kategori
+Route::resource('kategori', KategoriController::class);
