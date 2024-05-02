@@ -45,7 +45,7 @@ Route::delete('/hewan/{hewan_id}', [HewanController::class, 'destroy']);
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/login', [App\Http\Controllers\Auth\LoginController::class, 'showLoginForm'])->name('login');
 
 //route kategori
 Route::resource('kategori', KategoriController::class);

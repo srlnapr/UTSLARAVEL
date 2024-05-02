@@ -85,6 +85,9 @@
 								<div class="control">
 									<a class="button button-primary button-block" href="/login" style="margin-right: 600px;">Login</a>
 								</div>
+								<div class="control">
+									<a class="button button-primary button-block" href="/register" style="margin-right: -500px;">Register</a>
+								</div>
 							</div>
 						</div>
 						<div class="hero-illustration">
@@ -466,6 +469,9 @@
                             </div>
                             <div class="control">
                                 <a class="button button-primary button-block button-shadow" href="/login">Login</a>
+                            </div>
+							<div class="control">
+                                <a class="button button-primary button-block button-shadow" href="/register">Register</a>
                             </div>
                         </div>
                     </div>
