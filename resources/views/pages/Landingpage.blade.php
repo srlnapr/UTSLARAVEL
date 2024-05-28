@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>April Template</title>
+    <title>Exotipets</title>
     <link href="https://fonts.googleapis.com/css?family=Heebo:400,500,700|Fira+Sans:600" rel="stylesheet">
     <link rel="stylesheet" href="homepage/dist/css/style.css">
 	<script src="https://unpkg.com/animejs@2.2.0/anime.min.js"></script>
@@ -77,17 +77,19 @@
                 <div class="container">
                     <div class="hero-inner">
 						<div class="hero-copy">
-	                        <h1 class="hero-title mt-0">Landing template for startups</h1>
-	                        <p class="hero-paragraph">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
+	                        <h1 class="hero-title mt-0"><span style="color: #2C3094">Exotipets</span> Temukan Hewan Eksotis Impianmu di Sini!</h1>
+	                        <p class="hero-paragraph">Exotipets adalah platform terpercaya untuk membeli dan menjual hewan eksotis dari seluruh dunia. Temukan berbagai jenis hewan langka yang siap menjadi bagian dari keluarga.</p>
 							<div class="hero-form field field-grouped">
 								<div class="control control-expanded">
 								</div>
-								<div class="control">
-									<a class="button button-primary button-block" href="/login" style="margin-right: 600px;">Login</a>
-								</div>
-								<div class="control">
-									<a class="button button-primary button-block" href="/register" style="margin-right: -500px;">Register</a>
-								</div>
+								<div class="control-wrapper" style="display: flex; justify-content: center; gap: 10px;">
+									<div class="control">
+										<a class="button button-primary button-block" href="/login">Login</a>
+									</div>
+									<div class="control">
+										<a class="button button-primary button-block" href="/register">Register</a>
+									</div>
+								</div>								
 							</div>
 						</div>
 						<div class="hero-illustration">
@@ -298,8 +300,8 @@
                     <div class="features-inner section-inner">
                         <div class="features-header text-center">
                             <div class="container-sm">
-                                <h2 class="section-title mt-0">Meet April</h2>
-                                <p class="section-paragraph">Lorem ipsum is common placeholder text used to demonstrate the graphic elements of a document or visual presentation.</p>
+                                <h2 class="section-title mt-0">Eksotipets</h2>
+                                <p class="section-paragraph">Kenapa Pilih ExotiPets?</p>
                             </div>
                         </div>
 						<div class="features-wrap">
@@ -313,8 +315,8 @@
 										    </g>
 										</svg>
                                     </div>
-                                    <h4 class="feature-title h3-mobile mb-8">Powerful</h4>
-                                    <p class="text-sm">A pseudo-Latin text used in web design, layout, and printing in place of English to emphasise design elements.</p>
+                                    <h4 class="feature-title h3-mobile mb-8">Koleksi Terlengkap</h4>
+                                    <p class="text-sm">Dari reptil, burung, hingga mamalia eksotis, semua ada di sini.</p>
                                 </div>
                             </div>
 							<div class="feature text-center is-revealing">
@@ -327,8 +329,8 @@
 										    </g>
 										</svg>
                                     </div>
-                                    <h4 class="feature-title h3-mobile mb-8">Powerful</h4>
-                                    <p class="text-sm">A pseudo-Latin text used in web design, layout, and printing in place of English to emphasise design elements.</p>
+                                    <h4 class="feature-title h3-mobile mb-8">Penjual Terverifikasi</h4>
+                                    <p class="text-sm">Kami memastikan setiap penjual di ExotiPets adalah penjual yang terpercaya dan berpengalaman.</p>
                                 </div>
                             </div>
 							<div class="feature text-center is-revealing">
@@ -342,8 +344,8 @@
 										    </g>
 										</svg>
                                     </div>
-                                    <h4 class="feature-title h3-mobile mb-8">Powerful</h4>
-                                    <p class="text-sm">A pseudo-Latin text used in web design, layout, and printing in place of English to emphasise design elements.</p>
+                                    <h4 class="feature-title h3-mobile mb-8">Kemudahan Transaksi</h4>
+                                    <p class="text-sm">Nikmati proses jual beli yang cepat, aman, dan nyaman.<p>
                                 </div>
                             </div>
 							<div class="feature text-center is-revealing">
@@ -356,8 +358,8 @@
 										    </g>
 										</svg>
                                     </div>
-                                    <h4 class="feature-title h3-mobile mb-8">Powerful</h4>
-                                    <p class="text-sm">A pseudo-Latin text used in web design, layout, and printing in place of English to emphasise design elements.</p>
+                                    <h4 class="feature-title h3-mobile mb-8">Dukungan Pelanggan 24/7</h4>
+                                    <p class="text-sm">Tim kami siap membantu Anda kapan saja.</p>
                                 </div>
                             </div>
 						</div>
@@ -399,7 +401,7 @@
 				</div>
 				<div class="container">
 					<div class="testimonials-inner section-inner">
-						<h2 class="section-title mt-0 text-center">Testimonials</h2>
+						<h2 class="section-title mt-0 text-center">Testimonial</h2>
 						<div class="testimonials-wrap">
 							<div class="testimonial text-xs is-revealing">
 								<div class="testimonial-inner">
@@ -408,12 +410,12 @@
 											<img class="mb-16" src="dist/images/testimonial-01.png" alt="Testimonial">
 										</div>
 										<div class="testimonial-body">
-											<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+											<p class="mb-0">Gorilla yang aku beli udah sampe rumah. Next time aku bakal beli hewan imut di Exotipets lagi. Coachella!!</p>
 										</div>
 									</div>
 									<div class="testimonial-footer">
 										<div class="testimonial-link">
-											<a href="#">@martajones</a>
+											<a href="#">@lolycafe</a>
 										</div>
 									</div>
 								</div>
@@ -425,12 +427,12 @@
 											<img class="mb-16" src="dist/images/testimonial-02.png" alt="Testimonial">
 										</div>
 										<div class="testimonial-body">
-											<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+											<p class="mb-0">Heumm, Syubul! Monyet yang aku beli lebih imut dari aku. Besok aku mau beli onyet lagi di Exotipets.</p>
 										</div>
 									</div>
 									<div class="testimonial-footer">
 										<div class="testimonial-link">
-											<a href="#">@michealpahm</a>
+											<a href="#">@dribbleBagas</a>
 										</div>
 									</div>
 								</div>
@@ -442,12 +444,12 @@
 											<img class="mb-16" src="dist/images/testimonial-03.png" alt="Testimonial">
 										</div>
 										<div class="testimonial-body">
-											<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+											<p class="mb-0">Kenapa? kok merasa sedih ketika aku cuek. Bukankah kamu pernah bilang cari yang terbaik daripada aku? dan sekarang aku sudah ketemu yaitu Kalajengking. PAHAM?</p>
 										</div>
 									</div>
 									<div class="testimonial-footer">
 										<div class="testimonial-link">
-											<a href="#">@markbrown</a>
+											<a href="#">@kakGem</a>
 										</div>
 									</div>
 								</div>
@@ -551,7 +553,7 @@
                             </a>
                         </li>
                     </ul>
-                    <div class="footer-copyright">&copy; 2018 April, all rights reserved</div>
+                    <div class="footer-copyright">&copy; 2024 Exotipets, all rights reserved</div>
                 </div>
             </div>
         </footer>

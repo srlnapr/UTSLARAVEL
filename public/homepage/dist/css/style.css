@@ -1080,10 +1080,10 @@ label {
 	transition: background 0.15s ease;
 }
 .button-primary {
-	background: #4950f6;
+	background: #373CB9;
 }
 .button-primary:hover {
-	background: #3f47f6;
+	background: #2C3094;
 }
 .button-block {
 	display: flex;
