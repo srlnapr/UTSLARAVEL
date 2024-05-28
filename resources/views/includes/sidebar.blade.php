@@ -5,7 +5,7 @@
         <div class="sidebar-brand-icon rotate-n-15">
             <i class="fas fa-shopping-basket"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">TOKLINE</div>
+        <div class="sidebar-brand-text mx-3">Toko Hewan</div>
     </a>
 
     <!-- Divider -->
@@ -17,15 +17,19 @@
         <i class="fas fa-fw fa-tachometer-alt"></i>
         <span>Dashboard</span></a>
     </li>
+<!-- Divider -->
+<hr class="sidebar-divider">
 
-    <!-- Divider -->
-    <hr class="sidebar-divider">
-        <li class="nav-item active">
+@if(Auth::check() && Auth::user()->isAdmin())
+    <li class="nav-item active">
         <a class="nav-link" href="/pelanggan">
-        <i class="fas fa-fw fa-users"></i>
-        <span>Pelanggan</span></a>
+            <i class="fas fa-fw fa-users"></i>
+            <span>Pelanggan</span>
+        </a>
     </li>
-    <!-- Divider -->
+@endif
+
+<!-- Divider -->
 
     <hr class="sidebar-divider my-0">
 
