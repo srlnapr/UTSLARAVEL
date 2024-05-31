@@ -406,16 +406,13 @@
 							<div class="testimonial text-xs is-revealing">
 								<div class="testimonial-inner">
 									<div class="testimonial-main">
-										<div class="testimonial-header">
-											<img class="mb-16" src="dist/images/testimonial-01.png" alt="Testimonial">
-										</div>
 										<div class="testimonial-body">
 											<p class="mb-0">Gorilla yang aku beli udah sampe rumah. Next time aku bakal beli hewan imut di Exotipets lagi. Coachella!!</p>
 										</div>
-									</div>
-									<div class="testimonial-footer">
-										<div class="testimonial-link">
-											<a href="#">@lolycafe</a>
+										<div class="testimonial-footer">
+											<div class="testimonial-link">
+												<a href="#">@lolycafe</a>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -423,16 +420,13 @@
 							<div class="testimonial text-xs is-revealing">
 								<div class="testimonial-inner">
 									<div class="testimonial-main">
-										<div class="testimonial-header">
-											<img class="mb-16" src="dist/images/testimonial-02.png" alt="Testimonial">
-										</div>
 										<div class="testimonial-body">
 											<p class="mb-0">Heumm, Syubul! Monyet yang aku beli lebih imut dari aku. Besok aku mau beli onyet lagi di Exotipets.</p>
 										</div>
 									</div>
 									<div class="testimonial-footer">
 										<div class="testimonial-link">
-											<a href="#">@dribbleBagas</a>
+											<a href="#">@dribblebagas</a>
 										</div>
 									</div>
 								</div>
@@ -440,16 +434,13 @@
 							<div class="testimonial text-xs is-revealing">
 								<div class="testimonial-inner">
 									<div class="testimonial-main">
-										<div class="testimonial-header">
-											<img class="mb-16" src="dist/images/testimonial-03.png" alt="Testimonial">
-										</div>
 										<div class="testimonial-body">
-											<p class="mb-0">Kenapa? kok merasa sedih ketika aku cuek. Bukankah kamu pernah bilang cari yang terbaik daripada aku? dan sekarang aku sudah ketemu yaitu Kalajengking. PAHAM?</p>
+											<p class="mb-0">Kenapa? kok merasa sedih ketika aku cuek. Bukankah kamu pernah bilang cari yang terbaik daripada aku? dan sekarang aku sudah ketemu yaitu T-rex neon. PAHAM?</p>
 										</div>
 									</div>
 									<div class="testimonial-footer">
 										<div class="testimonial-link">
-											<a href="#">@kakGem</a>
+											<a href="#">@kakgem</a>
 										</div>
 									</div>
 								</div>
@@ -463,18 +454,8 @@
                 <div class="container-sm">
                     <div class="newsletter-inner section-inner">
                         <div class="newsletter-header text-center">
-                            <h2 class="section-title mt-0">Stay in the know</h2>
-                            <p class="section-paragraph">Lorem ipsum is common placeholder text used to demonstrate the graphic elements of a document or visual presentation.</p>
-                        </div>
-                        <div class="footer-form newsletter-form field field-grouped">
-                            <div class="control control-expanded">
-                            </div>
-                            <div class="control">
-                                <a class="button button-primary button-block button-shadow" href="/login">Login</a>
-                            </div>
-							<div class="control">
-                                <a class="button button-primary button-block button-shadow" href="/register">Register</a>
-                            </div>
+                            <h2 class="section-title mt-0">Exotipets</h2>
+                            <p class="section-paragraph">Terima kasih telah mempercayai Exotipets sebagai platform pilihan untuk menemukan hewan eksotis terbaik.</p>
                         </div>
                     </div>
                 </div>
@@ -487,7 +468,7 @@
                     <div class="brand footer-brand">
                         <a href="#">
 							<svg width="32" height="32" xmlns="http://www.w3.org/2000/svg">
-								<title>April</title>
+								<title>Exotipets</title>
 								<defs>
 									<linearGradient x1="114.674%" y1="39.507%" x2="-52.998%" y2="39.507%" id="logo-footer-a">
 										<stop stop-color="#8D92FA" offset="0%"/>
@@ -515,16 +496,16 @@
                     </div>
                     <ul class="footer-links list-reset">
                         <li>
-                            <a href="#">Contact</a>
+                            <a href="#">Kontak</a>
                         </li>
                         <li>
-                            <a href="#">About us</a>
+                            <a href="#">Tentang Kami</a>
                         </li>
                         <li>
-                            <a href="#">FAQ's</a>
+                            <a href="#">FAQ</a>
                         </li>
                         <li>
-                            <a href="#">Support</a>
+                            <a href="#">Dukungan</a>
                         </li>
                     </ul>
                     <ul class="footer-social-links list-reset">
@@ -553,7 +534,7 @@
                             </a>
                         </li>
                     </ul>
-                    <div class="footer-copyright">&copy; 2024 Exotipets, all rights reserved</div>
+                    <div class="footer-copyright">&copy; 2024 Exotipets, hak cipta dilindungi undang-undang.</div>
                 </div>
             </div>
         </footer>
